@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 
 require_relative "../lib/command_line_interface.rb"
+require_relative "../lib/practice_scraper.rb"
 
 
 CommandLineInteface.new.run
+Scrape.new.run
